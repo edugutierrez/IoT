@@ -13,4 +13,9 @@ Se hace uso de las siguientes librerias.
 
 #include <SNTPtime.h>           Obtener fecha y hora
 
+Para empezar a operar se debe mantener presionado el boton auxiliar del NodeMCU en los primeros segundos lo que pondrá al dispositivo en modo Access Point con una red llamada "myDevice" y password "atentoMyConfig"
+
+Una vez dentro desde un navegador en la dirección http://192.168.4.1 podra configurar los accesos de FireBase.
+Para administrar los dispositivos podrá hacerlo desde el proyecto InfrApp.
+
 A futuro se proyecta agregar un modulo RTC para manejo de horario
